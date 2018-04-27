@@ -1,0 +1,55 @@
+syntax: glob
+
+# compiled output
+dist/
+dist-server/
+tmp/
+out-tsc/
+
+# dependencies
+node_modules/
+
+# JetBrains IDEs and editors
+.idea/
+
+# misc
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+typings/
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store
+[Tt]humbs.db
+
+# Mercurial junk files
+*.orig
+
+# VIM junk files
+*.swp
+*~
+
+# Visual Studio 
+*.sln.cache
+*.suo
+*proj.user
+*.rdl.data
+.vs/
+obj/
+[Bb]in/
+packages/
+
+#-- ReSharper
+_ReSharper.*/
+*.[Rr]e[Ss]harper
+*.[Rr]e[Ss]harper.user
+*.resharperoptions
+*.DotSettings.user
