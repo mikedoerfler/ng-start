@@ -11,22 +11,11 @@ export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
 
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  };
-
-  selectedHero: Hero;
-
   constructor(private heroService: HeroService) {
   }
 
   ngOnInit() {
     this.getHeros();
-  }
-
-  onSelect(h: Hero): void {
-    this.selectedHero = h;
   }
 
   getHeros(): void {
